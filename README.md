@@ -7,7 +7,7 @@
 
 Projekt implementujący konwolucyjną sieć neuronową (CNN) do rozpoznawania emocji na twarzy przy użyciu biblioteki **PyTorch**. Model trenowany jest na popularnym zbiorze danych **FER2013** (Facial Expression Recognition 2013).
 
-##Główne cechy projektu
+## Główne cechy projektu
 
 * **Własna architektura CNN:** 4 bloki konwolucyjne (Conv2D + BatchNorm + ReLU + MaxPool).
 * **Focal Loss:** Zastosowanie niestandardowej funkcji straty (`gamma=2.0`) w celu poradzenia sobie z nierównowagą klas.
@@ -15,7 +15,7 @@ Projekt implementujący konwolucyjną sieć neuronową (CNN) do rozpoznawania em
 * **Analiza wag:** Wizualizacja rozkładu wag w poszczególnych warstwach modelu.
 * **Metryki:** Raporty klasyfikacji (Precision, Recall, F1-score) oraz Macierz Pomyłek (Confusion Matrix).
 
-##Dataset
+## Dataset
 
 Wykorzystano zbiór **FER2013**.
 * **Preprocessing:** Obrazy są skalowane do rozmiaru 48x48 pikseli (skala szarości).
